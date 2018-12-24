@@ -1142,6 +1142,12 @@ lib64/vendor.xiaomi.hardware.mlipay@1.0.so:vendor/lib64/vendor.xiaomi.hardware.m
 vendor/bin/mlipayd|f772b60d0e77fc73b7429229c6104643828770e7
 vendor/lib64/libmlipay.so|bf4f08280cfe292693f6fdcb61893eeaea247db1
 
+# Mlipay
+etc/init/vendor.xiaomi.hardware.mlipay@1.0-service.rc:vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.0-service.rc
+lib64/vendor.xiaomi.hardware.mlipay@1.0.so:vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
+vendor/bin/mlipayd
+vendor/lib64/libmlipay.so
+
 # Perf
 vendor/bin/energy-awareness
 vendor/bin/msm_irqbalance
