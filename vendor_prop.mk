@@ -248,6 +248,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.rat_on=combine
 
+# Make data selection stick in dual SIM devices
+PRODUCT_PROPERTY_OVERRIDES += \
+	persist.radio.aosp_usr_pref_sel=true
+
 # the level of data wiping under PRESET mode
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.regional.wipedata.level=all
