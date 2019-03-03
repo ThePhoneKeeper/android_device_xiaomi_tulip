@@ -341,6 +341,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.disable_skip_validate=1 \
     debug.sf.recomputecrop=0
 
+#Density	#Density
+PRODUCT_PROPERTY_OVERRIDES +=
+    ro.sf.lcd_density=420
+
 #iwaln vowifi corresponding
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.iwlan.enable=true
