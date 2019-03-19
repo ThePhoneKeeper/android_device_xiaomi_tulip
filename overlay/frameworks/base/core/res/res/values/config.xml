@@ -574,4 +574,7 @@
    <!-- Whether device has a physical display cutout -->
     <bool name="config_physicalDisplayCutout">true</bool>
 
- </resources>	</resources>
+   <!-- Whether to enable smart clock feature -->
+    <bool name="config_enableSmartClock">true</bool>
+
+ </resources>	
