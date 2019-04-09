@@ -31,6 +31,11 @@ TARGET_BOOT_ANIMATION_RES := 2140
 TARGET_USE_GCAM := true
 TARGET_USE_JELLY := true
 
+# Build with gapps
+WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+
 PRODUCT_NAME := aosp_tulip
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := tulip
