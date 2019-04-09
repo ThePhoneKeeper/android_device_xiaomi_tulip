@@ -25,7 +25,7 @@ $(call inherit-product, device/xiaomi/tulip/device.mk)
 
 # Inherit some common Mokee stuff.
 $(call inherit-product, vendor/aosp/common.mk)
-TARGET_BOOT_ANIMATION_RES := 2280
+TARGET_BOOT_ANIMATION_RES := 2140
 
 PRODUCT_NAME := aosp_tulip
 PRODUCT_BRAND := Xiaomi
