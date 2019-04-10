@@ -27,6 +27,9 @@ $(call inherit-product, device/xiaomi/tulip/device.mk)
 $(call inherit-product, vendor/aosp/common.mk)
 TARGET_BOOT_ANIMATION_RES := 2280
 
+# AospExtended packages section
+TARGET_USE_JELLY := true
+
 PRODUCT_NAME := aosp_tulip
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := tulip
