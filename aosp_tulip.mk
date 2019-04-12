@@ -36,9 +36,6 @@ WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
 
-# AospExtended packages section
-TARGET_USE_JELLY := true
-
 PRODUCT_NAME := aosp_tulip
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := tulip
